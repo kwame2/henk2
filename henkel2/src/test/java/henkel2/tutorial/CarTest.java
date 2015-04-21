@@ -27,6 +27,7 @@ public class CarTest {
 		when(engine.getRpm()).thenReturn(6000);
 		car.accelerate();
 		assertEquals("Slow Down!!!",car.getWarningMessage());
+		System.out.println("First Test and first Checking...");
 	}
 	
 
